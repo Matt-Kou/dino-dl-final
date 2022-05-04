@@ -17,3 +17,4 @@ You can also use the slurm file "run-resnet.slurm" when using Greene. Just chang
 3. Change the output checkpoint file format: run the "get_backbone-original.ipynb". Change the second line  in the second cell: `pretrained_weights = os.path.join(os.getcwd(), 'inputs', 'resnet.pth')` to the output path.
 4. Change the path in the last cell to an output directory, it is defaulted as "zoo" here.
 5. Run the notebook and format the Resnet! 
+6. Go to the Faster R-CNN repository :). LInk: https://github.com/Matt-Kou/dl-final/tree/ggflow123-patch-1
